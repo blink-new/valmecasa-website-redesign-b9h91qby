@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cog, Precision, Factory, Settings } from 'lucide-react';
+import { Cog, Ruler, Factory, Settings } from 'lucide-react';
 
 const Services = () => {
   const services = [
@@ -10,7 +10,7 @@ const Services = () => {
       features: ["Capacité jusqu'à 40T", "Machines modernes", "Contrôle qualité rigoureux"]
     },
     {
-      icon: <Precision className="w-8 h-8" />,
+      icon: <Ruler className="w-8 h-8" />,
       title: "Mécanique de précision",
       description: "Fabrication de composants haute précision pour les industries exigeantes",
       features: ["Tolérances serrées", "Finitions parfaites", "Expertise technique"]

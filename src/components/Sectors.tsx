@@ -1,5 +1,5 @@
 import React from 'react';
-import { Building, Zap, Plane, Factory2, Atom } from 'lucide-react';
+import { Building, Zap, Plane, Factory, Atom } from 'lucide-react';
 
 const Sectors = () => {
   const sectors = [
@@ -22,7 +22,7 @@ const Sectors = () => {
       color: "bg-sky-500"
     },
     {
-      icon: <Factory2 className="w-12 h-12" />,
+      icon: <Factory className="w-12 h-12" />,
       title: "Métallurgie",
       description: "Solutions complètes pour les processus métallurgiques et de transformation",
       color: "bg-gray-600"
